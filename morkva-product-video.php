@@ -2,17 +2,18 @@
 /**
  * Plugin Name: Morkva Product Video
  * Description: Add an MP4 product video to a product gallery. Nice and simple.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: MORKVA
  * Author URI: https://morkva.co.ua
  * Text Domain: morkva-product-video
  * Domain Path: /languages
+ * Tested up to: 6.9
  * License: GPLv2
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-define( 'MRKV_PV_VER', '1.0.0' );
+define( 'MRKV_PV_VER', '1.0.1' );
 define( 'MRKV_PV_URL', plugin_dir_url( __FILE__ ) );
 define( 'MRKV_PV_DIR', plugin_dir_path( __FILE__ ) );
 

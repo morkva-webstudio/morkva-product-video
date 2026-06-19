@@ -2,9 +2,9 @@
 Contributors: bandido
 Tags: woocommerce, product video, video gallery
 Requires at least: 5.8
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2
 
 Add an MP4 video to WooCommerce product gallery, make your products stand out. Very simple to use.
@@ -109,6 +109,9 @@ Need help or custom features? Email us at support@morkva.co.ua
 Demo: [demoglobal.morkva.co.ua](https://demoglobal.morkva.co.ua)
 
 == Changelog ==
+
+= 1.0.1 =
+* WP 6.9 - compatible
 
 = 1.0.0 =
 * Initial release
