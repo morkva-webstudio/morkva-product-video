@@ -2,18 +2,19 @@
 /**
  * Plugin Name: Morkva Product Video
  * Description: Add an MP4 product video to a product gallery. Nice and simple.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: MORKVA
  * Author URI: https://morkva.co.ua
  * Text Domain: morkva-product-video
  * Domain Path: /languages
  * Tested up to: 7.1
+ * Requires Plugins: woocommerce
  * License: GPLv2
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-define( 'MRKV_PV_VER', '1.0.2' );
+define( 'MRKV_PV_VER', '1.0.3' );
 define( 'MRKV_PV_URL', plugin_dir_url( __FILE__ ) );
 define( 'MRKV_PV_DIR', plugin_dir_path( __FILE__ ) );
 
@@ -240,7 +241,7 @@ return '<div class="woocommerce-product-gallery__image"' . $thumb_attr . '>
 
 
 add_action( 'wp_head', function () {
-        if ( ! is_product() ) {
+        if ( ! class_exists( 'WooCommerce' )  || !function_exists( 'is_product' ) || ! is_product()) {
                 return;
         }
 
