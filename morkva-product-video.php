@@ -8,6 +8,7 @@
  * Text Domain: morkva-product-video
  * Domain Path: /languages
  * Tested up to: 7.1
+ * WC tested up to: 11.3
  * Requires Plugins: woocommerce
  * License: GPLv2
  */
